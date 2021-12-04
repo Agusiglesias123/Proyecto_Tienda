@@ -24,7 +24,7 @@ body{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: url(/img/fondo1.jpg);
+  background-image: url(./img/fondo1.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
