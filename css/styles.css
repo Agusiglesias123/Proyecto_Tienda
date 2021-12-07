@@ -563,7 +563,6 @@ opacity: 80%;
   }
 }
   
-}
 @media screen and (max-width: 1024px){
   .acc_mainColumn, .acc-img, .acc_column, .acc_columnphotos, .acc_columnphotosone, .acc_columnphototwo{
     width: 100%;
@@ -574,9 +573,6 @@ opacity: 80%;
   .barra-ul{
     flex-direction: row;
   }
-}
-
-  
 }
 @media screen and (min-width: 1140px){
   .containerService__banner{
