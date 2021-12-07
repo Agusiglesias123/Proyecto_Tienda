@@ -32,37 +32,48 @@
     <link rel="shortcut icon" href="../assets/favicon-16x16.png" type="image/x-icon">   
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="../assets/ms-icon-144x144.png" class="header_logo" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">HOME</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="../Pages/hombre.html">MEN</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/ofertas.html">SALE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ACCESORIES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/contacto.html">CONTACT</a>
-              </li>
-            </ul>
-          </div>
+  <header class=" navbar-expand-lg p-3 bg-dark text-dark barra-nav navbar-dark ">
+    <div class="container-fluid ">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="navbar-brand d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img src="../assets/ms-icon-144x144.png" class="header_logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class=" nav col- col-lg-auto me-lg-auto mb-2  mb-md-0 text-dark justify-content-center">
+            <li class="nav-item ">
+              <a class="nav-link text-white-50" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white-50" href="../Pages/hombre.html">MEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="../Pages/ofertas.html">SALE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">ACCESORIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="../Pages/contacto.html">CONTACT</a>
+            </li>
+          </ul>
         </div>
-      </nav><!--fin header-->
-    <div class="container-fluid border-dark bg-black">.
+          
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light bg-primary  me-2">Login</button>
+          <button type="button" class="btn btn-warning bg-dark text-white">Sign-up</button>
+        </div>
+      </div>
     </div>
+  </header>
+  <div class="container-fluid bg-black p-0">
+    .
+  </div>
 <main class="reli d-flex flex-lg-row flex-column w-100"><!--inicio main-->
     <div id="carouselExampleIndicators reli" class="carousel slide w-100" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -224,7 +235,7 @@
             <li class="nav-item"><a href="./hombre.html" class="nav-link px-2 text-muted">Men</a></li>
             <li class="nav-item"><a href="./ofertas.html" class="nav-link px-2 text-muted">Sale</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Accesories</a></li>
-            <li class="nav-item"><a href="./contacto.html" class="nav-link px-2 text-muted">Contact</a></li>
+            <li class="nav-item"><a href="./" class="nav-link px-2 text-muted">Contact</a></li>
         </ul>
         <p class="text-center text-white-50">BBLK. &copy; 2021 powered by AgustinIglesias.com</p>
         <div class="container d-flex justify-content-center justify-content-xl-end">
