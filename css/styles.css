@@ -30,6 +30,7 @@ body{
   background-repeat: no-repeat;
 
 }
+
 .header_logo{
   width: 100%;
   transition: all 1s;
@@ -175,7 +176,9 @@ opacity: 80%;
   border: 1px solid #ced6e0;
   border-radius: .25rem;
 }
-
+.form-control{
+  margin-right: 1rem!important;
+}
 .text_area{
   max-width: 680px;
   min-height: 176px;
