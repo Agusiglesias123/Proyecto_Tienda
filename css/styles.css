@@ -514,7 +514,6 @@ opacity: 80%;
 .nav{
   flex-direction: row;
 }
-
 .acc_columnphototwo{
   display: flex;
   margin-bottom:20px;
@@ -556,6 +555,10 @@ opacity: 80%;
   .reli{
     width: 100%;
   }
+  .barra-ul{
+    flex-direction: row;
+  }
+}
   
 }
 @media screen and (max-width: 1024px){
@@ -565,11 +568,19 @@ opacity: 80%;
   .reli{
     width: 100%;
   }
+  .barra-ul{
+    flex-direction: row;
+  }
+}
+
   
 }
 @media screen and (min-width: 1140px){
   .containerService__banner{
     width: 1148px;
+  }
+  .barra-ul{
+    flex-direction: row;
   }
 }
 
@@ -658,8 +669,9 @@ opacity: 80%;
     margin: 0%;
     padding: 3%;
   }
-  .nav{
+  .barra-ul{
     flex-direction: column;
   }
+
 }
   
