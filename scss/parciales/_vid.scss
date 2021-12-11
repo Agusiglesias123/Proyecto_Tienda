@@ -1,0 +1,62 @@
+.vid_container{
+    background-color: #fc9002;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .video{
+    width: 35%;
+    height: 35%;
+  }
+  
+  .title_vid{
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    line-height: 40px;
+  }
+  .vid-container{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  .video{
+    width: 35%;
+    height: 35%;
+  }
+  
+  .title-vid{
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 40px;
+  }
+  
+  .vid_contact{
+    display: flex;
+  }
+  
+  .video1{
+    width: 500px;
+    height: 100%;
+  
+  }
+  .title_contact_vid{
+    font-size: 2.2rem;
+  }

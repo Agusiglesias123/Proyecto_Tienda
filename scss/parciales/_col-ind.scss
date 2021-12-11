@@ -1,0 +1,49 @@
+.acc_mainColumn{
+    display: flex;
+    justify-content: center;
+  
+}
+  
+  .acc_column{
+    display: block;
+    flex-direction: column;
+  }
+  
+  .acc_columnphotos{
+    display: flex;
+    margin-top: 100px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 27px;
+  
+  }
+  
+  .acc_columnphotosone{
+    display: flex;
+    margin-bottom: 40px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .acc_columnphototwo{
+    display: flex;
+    margin-bottom:20px;
+    margin-left: 1px;
+    margin-top: 20px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .acc-img{
+    width: 500px;
+  }
+  .acc-mod{
+    margin: 20px;
+  }
+  .acc-mo{
+    margin-top: 30px;
+  }

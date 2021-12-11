@@ -1,0 +1,83 @@
+
+.main_grid{
+    grid-area: venta;
+  }
+  .grid_container{
+    background-color: black;
+  }
+  
+  .grid_section{
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid white;
+    display: grid;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "c1 c2 c3 c4"
+                         "c5 c6 c7 c8"
+                         "c9 c10 c11 c12";
+    justify-content: center;
+  
+  }
+  .c1{
+    grid-area: c1;
+  }
+  .c2{
+    grid-area: c2;
+  }
+  .c3{
+    grid-area: c3;
+  }
+  .c4{
+    grid-area: c4;
+  }
+  .c5{
+    grid-area: c5;
+  }
+  .c6{
+    grid-area: c6;
+  }
+  .c7{
+    grid-area: c7;
+  }
+  .c8{
+    grid-area: c8;
+  }
+  .c9{
+    grid-area: c9;
+  }
+  .c10{
+    grid-area: c10;
+  }
+  .c11{
+    grid-area: c11;
+  }
+  .c12{
+    grid-area: c12;
+  }
+  
+  .grid_layout{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #b6b6b6;
+    margin: 2px;
+    padding: 15px;
+    text-align: center;
+    background-color: #b6b6b6;
+  }
+  .img-art{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+  .section-txt{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 30px;
+  }
