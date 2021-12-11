@@ -585,9 +585,7 @@ opacity: 80%;
 
 /* ESTILOS movile */
 @media screen and (max-width: 768px){
-  .reli{
-    width: 200%;
-  }
+  
   .header{
     justify-content: space-around;
   }
