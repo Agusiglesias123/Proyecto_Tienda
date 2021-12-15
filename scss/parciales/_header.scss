@@ -1,6 +1,6 @@
 .barra-nav{
-    background: #2f3542;
-    color: #ced6e0;
+    background: $color-principal;
+    color: $color-gris;
     padding: 40px 20px;
     display: flex;
     align-items: center;
@@ -24,10 +24,10 @@
       text-align: center;
       justify-content: flex-end;
       transition: all 1s;
-      color: #ffffff;
+      color: $color-blanco;
       &:hover{
         transform: scale(1.1);
-        background-color: #2f2f2f;
+        background-color: $color-principal;
         border-radius: 10%;
         opacity: 80%;
         }
@@ -39,7 +39,7 @@
       font-weight: 700;
       padding: 10 0 28px 0;
       text-decoration: none;
-      color: #ced6e0;
+      color: $color-gris;
       display: flex;
       padding: 10px;
       text-align: center;

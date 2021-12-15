@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 .barra-nav {
-  background: #2f3542;
+  background: #1f2227;
   color: #ced6e0;
   padding: 40px 20px;
   display: -webkit-box;
@@ -49,7 +49,7 @@
 .barra-nav .header_list:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background-color: #2f2f2f;
+  background-color: #1f2227;
   border-radius: 10%;
   opacity: 80%;
 }
@@ -249,6 +249,12 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
 .main__contenedor {
   max-width: 100%;
 }
@@ -273,8 +279,8 @@ body {
   text-align: start;
   font-size: 1.4rem;
   margin-bottom: 3rem;
-  border: 5px solid #2f3542;
-  background-color: #2f3542;
+  border: 5px solid #1f2227;
+  background-color: #1f2227;
   color: #ced6e0;
 }
 
@@ -286,7 +292,7 @@ body {
 .form_post {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 5px solid white;
+  border: 5px solid #ffffff;
   text-align: start;
   font-size: 1.1rem;
 }
@@ -351,8 +357,8 @@ body {
   text-transform: uppercase;
   border-radius: 1%;
   min-width: 124px;
-  border-color: #29363c;
-  background-color: #29363c;
+  border-color: #1f2227;
+  background-color: #1f2227;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 1s;
@@ -360,13 +366,13 @@ body {
 }
 
 .botn_form:hover {
-  background-color: #fc9002;
-  color: #000000;
+  background-color: #ffb700;
+  color: black;
 }
 
 .footer {
-  background: #dddddd;
-  color: #ced6e0;
+  background: #ffffff;
+  color: #ffffff;
   height: 50px;
   line-height: 50px;
 }
@@ -381,7 +387,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #000000;
+  background-color: #1f2227;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -397,8 +403,8 @@ body {
 .grid_section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: white;
-  border: 1px solid white;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   display: -ms-grid;
   display: grid;
   padding-bottom: 6px;
@@ -497,11 +503,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid #b6b6b6;
+  border: 1px solid #ced6e0;
   margin: 2px;
   padding: 15px;
   text-align: center;
-  background-color: #b6b6b6;
+  background-color: #ced6e0;
 }
 
 .img-art {
@@ -516,7 +522,7 @@ body {
 }
 
 .section-txt {
-  color: #000000;
+  color: black;
   font-size: 30px;
   font-family: 'Bebas Neue', cursive;
   margin-top: 30px;
@@ -614,7 +620,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   line-height: 1.3rem;
-  background-color: white;
+  background-color: #ffffff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -631,7 +637,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  background-color: #fff;
+  background-color: #ffffff;
   letter-spacing: .03rem;
   line-height: 1.6;
   font-size: 1.1rem;
@@ -653,7 +659,7 @@ body {
   line-height: 4em;
   text-align: center;
   text-transform: none;
-  background-color: #fff;
+  background-color: #ffffff;
   min-width: 0rem;
   margin-right: 1.9rem;
   font-size: 1.6rem;
@@ -680,12 +686,12 @@ body {
   border: 1px solid #ffffff;
   border-radius: 4%;
   padding: 7px;
-  background-color: #131313;
+  background-color: #1f2227;
   color: #ffffff;
 }
 
 .out {
-  background-color: #e60404;
+  background-color: red;
   color: #ffffff;
   opacity: 90%;
 }
@@ -697,10 +703,10 @@ body {
 
 .btn_vid {
   padding: 9px;
-  background-color: #2c2b2b;
+  background-color: #1f2227;
   color: #ffffff;
   border-radius: 6px;
-  border: 3px outset #666666;
+  border: 3px outset #ced6e0;
   cursor: pointer;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -709,11 +715,11 @@ body {
 
 .btn_vid:hover {
   color: black;
-  background-color: #fc9002;
+  background-color: #ffb700;
 }
 
 .page-link {
-  background-color: #000000;
+  background-color: #1f2227;
   color: #ffffff;
   -webkit-box-shadow: black;
           box-shadow: black;
@@ -749,7 +755,7 @@ body {
 }
 
 .vid_container {
-  background-color: #fc9002;
+  background-color: #ffb700;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -821,7 +827,7 @@ body {
 
 .title-vid {
   font-size: 20px;
-  color: #000000;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -853,6 +859,15 @@ body {
 
 .title_contact_vid {
   font-size: 2.2rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
 }
 
 /* ESTILOS  desktop */
@@ -996,6 +1011,12 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

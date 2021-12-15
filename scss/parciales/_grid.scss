@@ -3,13 +3,13 @@
     grid-area: venta;
   }
   .grid_container{
-    background-color: black;
+    background-color: $color-negro;
   }
   
   .grid_section{
     flex-wrap: wrap;
-    background-color: white;
-    border: 1px solid white;
+    background-color: $color-blanco;
+    border: 1px solid $color-blanco;
     display: grid;
     padding-bottom: 6px;
     padding-top: 6px;
@@ -63,11 +63,11 @@
     margin: 0 auto;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #b6b6b6;
+    border: 1px solid $color-gris;
     margin: 2px;
     padding: 15px;
     text-align: center;
-    background-color: #b6b6b6;
+    background-color: $color-gris;
   }
   .img-art{
     width: 100%;
@@ -76,7 +76,7 @@
     display: flex;
   }
   .section-txt{
-    color: #000000;
+    color: $color-negro;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     margin-top: 30px;

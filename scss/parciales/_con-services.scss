@@ -11,7 +11,7 @@
     padding-bottom: 10px;
     display:flex;
     line-height: 1.3rem;
-    background-color: rgb(255, 255, 255);
+    background-color: $color-blanco;
     align-items: center;
   }
   
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-color: #fff;
+    background-color: $color-blanco;
     letter-spacing: .03rem;
     line-height: 1.6;
     font-size: 1.1rem;
@@ -37,7 +37,7 @@
     line-height: 4em;
     text-align: center;
     text-transform: none;
-    background-color: #fff;
+    background-color: $color-blanco;
     min-width: 0rem;
     margin-right: 1.9rem;
     font-size: 1.6rem;

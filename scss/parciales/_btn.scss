@@ -1,37 +1,37 @@
 .btn{
-    border: 1px solid #ffffff;
+    border: 1px solid $color-blanco;
     border-radius: 4%;
     padding: 7px;
-    background-color: #131313;
-    color: #ffffff;
+    background-color: $color-principal;
+    color: $color-blanco;
   }
   
   .out{
-    background-color: rgb(230, 4, 4);
-    color: #ffffff;
+    background-color: $color-rojo;
+    color: $color-blanco;
     opacity: 90%;
   }
   
   .btn:hover{
-    background-color: #ffb700;
-    color: black;
+    background-color: $color-naranja;
+    color: $color-negro;
   }
   .btn_vid{
     padding: 9px;
-    background-color:#2c2b2b;
-    color: #ffffff;
+    background-color:$color-principal;
+    color: $color-blanco;
     border-radius: 6px;
-    border: 3px outset #666666;
+    border: 3px outset $color-gris;
     cursor: pointer;
     transition: all 1s;
     margin: 15px;
   }
   .btn_vid:hover{
-    color: black;
-    background-color: #fc9002;
+    color: $color-negro;
+    background-color: $color-naranja;
   }
   .page-link{
-    background-color: #000000;
-    color: #ffffff;
-    box-shadow: black;
+    background-color: $color-principal;
+    color: $color-blanco;
+    box-shadow: $color-negro;
   }

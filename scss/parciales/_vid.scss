@@ -1,5 +1,5 @@
 .vid_container{
-    background-color: #fc9002;
+    background-color: $color-naranja;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -15,7 +15,7 @@
   
   .title_vid{
     font-size: 20px;
-    color: #ffffff;
+    color: $color-blanco;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -24,7 +24,7 @@
     line-height: 40px;
   }
   .vid-container{
-    background-color: #ffffff;
+    background-color: $color-blanco;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -39,7 +39,7 @@
   
   .title-vid{
     font-size: 20px;
-    color: #000000;
+    color: $color-negro;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -59,4 +59,11 @@
   }
   .title_contact_vid{
     font-size: 2.2rem;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
   }
