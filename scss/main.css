@@ -503,11 +503,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid #ced6e0;
+  border: 1px solid #b6b6b6;
   margin: 2px;
   padding: 15px;
   text-align: center;
-  background-color: #ced6e0;
+  background-color: #b6b6b6;
 }
 
 .img-art {
