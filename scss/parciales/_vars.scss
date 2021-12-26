@@ -14,12 +14,6 @@ $estilos:(
     flexible: flex,
     envol: wrap,
 );
-@mixin estiloss($flexible, $tamaño, $color-rojo) {
-    display: inline;
-    font-size: 7rem;
-    color:red;
-  };
-
 %display-flex-align{
     display: map-get($estilos, flexible);
     flex-wrap:map-get($estilos, envol);
