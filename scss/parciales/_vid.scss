@@ -1,51 +1,50 @@
+@import"./responsive";
 .vid_container{
     background-color: $color-naranja;
     width: 100%;
-    display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    @extend %flex-wrap;
     flex-direction: row;
-    align-items: center;
+    align-items:map-get($estilos, centro);
   }
-  
-  .video{
-    width: 35%;
-    height: 35%;
-  }
-  
   .title_vid{
+    @extend %display-flex-align;
     font-size: 20px;
     color: $color-blanco;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: end;
     flex-direction: column;
     line-height: 40px;
+    @include tablet{
+      font-size: 13px;
+    } 
   }
   .vid-container{
+    @extend %flex-wrap;
     background-color: $color-blanco;
     width: 100%;
-    display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    align-items:map-get($estilos, centro);
   }
   .video{
     width: 35%;
     height: 35%;
+    @include tablet{
+      width: 100%;
+    }
   }
   
   .title-vid{
     font-size: 20px;
     color: $color-negro;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-wrap;
+    align-items:map-get($estilos, centro);
+    justify-content:map-get($estilos, centro);
     flex-direction: column;
     line-height: 40px;
+    @include tablet{
+      font-size: 13px;
+    }
   }
   
   .vid_contact{
@@ -54,11 +53,16 @@
   
   .video1{
     width: 500px;
-    height: 100%;
-  
+    height:map-get($estilos, alto);
+    @include tablet{
+      width: 300px;
+    } 
   }
   .title_contact_vid{
     font-size: 2.2rem;
+    @include tablet{
+      font-size: 1.25rem;
+    }
   }
   .bd-placeholder-img {
     font-size: 1.125rem;

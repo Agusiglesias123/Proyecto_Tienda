@@ -1,126 +1,24 @@
-@media screen and (max-width: 1440px){
-    .acc_mainColumn, .acc-img, .acc_column, .acc_columnphotos, .acc_columnphotosone, .acc_columnphototwo{
-      width: 100%;
-    }
-    .reli{
-      width: 100%;
-    }
-    .barra-ul{
-      flex-direction: row;
-    }
-  }
-    
-  @media screen and (max-width: 1024px){
-    .acc_mainColumn, .acc-img, .acc_column, .acc_columnphotos, .acc_columnphotosone, .acc_columnphototwo{
-      width: 100%;
-    }
-    .reli{
-      width: 100%;
-    }
-    .barra-ul{
-      flex-direction: row;
-    }
-  }
-  @media screen and (min-width: 1140px){
-    .containerService__banner{
-      width: 1148px;
-    }
-    .barra-ul{
-      flex-direction: row;
-    }
-  }
-  
-  /* ESTILOS movile */
+/* ESTILOS  desktop */
+@mixin tablet{
   @media screen and (max-width: 768px){
-    
-    .header{
-      justify-content: space-around;
-    }
-    .footer-container{
-      flex-wrap: wrap;
-      margin-left: 0px;
-      margin-right: 0px;
-      flex-direction: row;
-      justify-content: center;
-      font-size: 12px;
-    }
-    .fotos__contenedor{
-      flex-wrap: wrap;
-    
-    }
-    .container__banner{
-      flex-wrap: wrap;
-    }
-    .contenedores{
-      flex-wrap: wrap;
-    }
-    .containerService__banner{
-      flex-wrap: wrap;
-      width: auto;
-    }
-    .container-banner{
-      border: none;
-    }
-    .info-boxBanner{
-      justify-content: flex-start;
-    }
-    .grid_section{
-      grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr ;
-      grid-template-areas: "c1 c2" 
-                          "c3 c4"
-                          "c5 c6"
-                           "c7 c8" 
-                           "c9 c10" 
-                          "c11 c12";  
-    }
-    .video{
-      width: 100%;
-    }
-    .title_vid{
-      font-size: 13px;
-    }
-    .title-vid{
-      font-size: 13px;
-    }
-    .section-txt{
-      font-size: medium;
-      font-family: 'Bebas Neue';
-    }
-    .title_contact_vid{
-      font-size: 1.25rem;
-    }
-    .video1{
-      width: 300px;
-    }
-    .contenedor_form{
-      padding: 20px 30px;
-    }
-    .botn_form{
-      padding: 1.8px 20px;
-    }
-    .form_titulo{
-      padding: 0px 25px;
-      border: none;
-      
-    }
-    .form_footer{
-      justify-content: center;
-    }
-    .acc_mainColumn, .acc-img, .acc_column, .acc_columnphotos, .acc_columnphotosone, .acc_columnphototwo{
-      flex-wrap: wrap;
-      width: 100%;
-      margin: 0%;
-      padding: 3%;
-    }
-    .barra-ul{
-      flex-direction: column;
-    }
-  
+    @content;
   }
+}
+@mixin laptop{
+  @media screen and (max-width: 1024px){
+    @content;
+  }
+}
+@mixin desktop{
+  @media screen and (min-width: 1140px){
+    @content;
+  }
+}
+@mixin desktop2{
+  @media screen and (max-width: 1440px){
+    @content;
+  }
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
+
+

@@ -1,12 +1,37 @@
+@import"./responsive";
+
 .acc_mainColumn{
     display: flex;
     justify-content: center;
-  
+    @include desktop2{
+      width: 100%;
+    }
+    @include laptop{
+      width: 100%;
+    }
+    @include tablet{
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0%;
+      padding: 3%;
+    }
 }
   
   .acc_column{
     display: block;
     flex-direction: column;
+    @include desktop2{
+      width: 100%;
+    }
+    @include laptop{
+      width: 100%;
+    }
+    @include tablet{
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0%;
+      padding: 3%;
+    }
   }
   
   .acc_columnphotos{
@@ -16,7 +41,18 @@
     flex-direction: column;
     align-items: center;
     padding-right: 27px;
-  
+    @include desktop2{
+      width: 100%;
+    }
+    @include laptop{
+      width: 100%;
+    }
+    @include tablet{
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0%;
+      padding: 3%;
+    }
   }
   
   .acc_columnphotosone{
@@ -25,6 +61,18 @@
     padding: 10px;
     flex-direction: column;
     align-items: center;
+    @include desktop2{
+      width: 100%;
+    }
+    @include laptop{
+      width: 100%;
+    }
+    @include tablet{
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0%;
+      padding: 3%;
+    }
   
   }
   .acc_columnphototwo{
@@ -35,11 +83,34 @@
     padding: 10px;
     flex-direction: column;
     align-items: center;
-  
+    @include desktop2{
+      width: 100%;
+    }
+    @include laptop{
+      width: 100%;
+    }
+    @include tablet{
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0%;
+      padding: 3%;
+    }
   }
   
   .acc-img{
     width: 500px;
+    @include desktop2{
+      width: 100%;
+    }
+    @include laptop{
+      width: 100%;
+    }
+    @include tablet{
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0%;
+      padding: 3%;
+    }
   }
   .acc-mod{
     margin: 20px;

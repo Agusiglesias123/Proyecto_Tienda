@@ -1,11 +1,10 @@
+@import"./responsive";
 .barra-nav{
     background: $color-principal;
+    @extend %display-flex-align;
     color: $color-gris;
     padding: 40px 20px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     background-image: url(../img/fondo1.jpg);
     background-position: center center;
     background-size: cover;
@@ -19,9 +18,8 @@
       }
     }
     .header_list{
-      display: flex;
       list-style: none;
-      text-align: center;
+      @extend %display-align;
       justify-content: flex-end;
       transition: all 1s;
       color: $color-blanco;
@@ -34,15 +32,14 @@
     }
     
     .header_item{
+      @extend %display-align;
       margin: 0px 10px;
       font-size: 12px;
       font-weight: 700;
       padding: 10 0 28px 0;
       text-decoration: none;
       color: $color-gris;
-      display: flex;
       padding: 10px;
-      text-align: center;
       font-size: 18px; 
       margin: 15px 15px 0px 15px; 
     }
@@ -67,5 +64,12 @@
   
   .reli{
     width: 100%;
+    @include desktop2{
+      width: 100%;
+    }
+    @include laptop{
+      width: 100%;
+    }
   }
+
   

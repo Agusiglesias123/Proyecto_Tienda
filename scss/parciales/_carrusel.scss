@@ -1,10 +1,13 @@
+@import"./responsive";
 .fotos__contenedor{
     display: flex;
     flex-direction: row;
+    @include tablet{
+      flex-wrap: wrap
+    }
   }
   .fotos_ind{
-    display: flex;
-    flex-direction: row;
+    @extend .fotos__contenedor;
   }
   
   .foto_lavadero{

@@ -1,4 +1,4 @@
-
+@import"./responsive";
 .main_grid{
     grid-area: venta;
   }
@@ -19,6 +19,16 @@
                          "c5 c6 c7 c8"
                          "c9 c10 c11 c12";
     justify-content: center;
+    @include tablet{
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr ;
+      grid-template-areas: "c1 c2" 
+                          "c3 c4"
+                          "c5 c6"
+                           "c7 c8" 
+                           "c9 c10" 
+                          "c11 c12";
+    }
   
   }
   .c1{
@@ -59,25 +69,26 @@
   }
   
   .grid_layout{
-    display: flex;
+    @extend %display-align-text;
     margin: 0 auto;
-    align-items: center;
     flex-direction: column;
     border: 1px solid $color-ropa;
     margin: 2px;
     padding: 15px;
-    text-align: center;
     background-color: $color-ropa;
   }
   .img-art{
+    @extend %display-align;
     width: 100%;
     justify-content: center;
-    text-align: center;
-    display: flex;
   }
   .section-txt{
     color: $color-negro;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     margin-top: 30px;
+    @include tablet{
+      font-size: medium;
+      font-family: 'Bebas Neue';
+    }
   }

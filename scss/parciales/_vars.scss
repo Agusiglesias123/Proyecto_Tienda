@@ -5,3 +5,36 @@ $color-rojo: red;
 $color-gris: #ced6e0;
 $color-negro: black;
 $color-ropa: #b6b6b6;
+$flexible:flex;
+$tamaño:7rem;
+$estilos:(
+    centro: center,
+    ancho: 100%,
+    alto: 100%,
+    flexible: flex,
+    envol: wrap,
+);
+@mixin estiloss($flexible, $tamaño, $color-rojo) {
+    display: inline;
+    font-size: 7rem;
+    color:red;
+  };
+
+%display-flex-align{
+    display: map-get($estilos, flexible);
+    flex-wrap:map-get($estilos, envol);
+    align-items:map-get($estilos, centro);
+  }
+%display-align{
+    display:map-get($estilos, flexible);
+    text-align: map-get($estilos, centro);
+}
+%display-align-text{
+    display:map-get($estilos, flexible);
+    text-align: map-get($estilos, centro);
+    align-items:map-get($estilos, centro);
+}
+%flex-wrap{
+    display:map-get($estilos, flexible);
+    flex-wrap: map-get($estilos, envol);
+}
