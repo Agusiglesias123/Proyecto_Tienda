@@ -36,7 +36,6 @@
       flex-wrap: wrap;
 }
 
-/* ESTILOS  desktop */
 .barra-nav {
   background: #1f2227;
   color: #ced6e0;
@@ -139,7 +138,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* ESTILOS  desktop */
 .main__contenedor {
   max-width: 100%;
 }
@@ -269,10 +267,8 @@ body {
 
 .botn_form:hover {
   background-color: #ffb700;
-  color: black;
 }
 
-/* ESTILOS  desktop */
 .footer {
   background: black;
   color: #ffffff;
@@ -310,7 +306,6 @@ body {
   }
 }
 
-/* ESTILOS  desktop */
 .main_grid {
   grid-area: venta;
 }
@@ -332,7 +327,7 @@ body {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: "c1 c2 c3 c4" "c5 c6 c7 c8" "c9 c10 c11 c12";
+      grid-template-areas: "c1 c2 c3 c4" "c5 c6 c7 c8" "c9 c10 c11 c12";
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -344,7 +339,7 @@ body {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas: "c1 c2"  "c3 c4" "c5 c6" "c7 c8"  "c9 c10"  "c11 c12";
+        grid-template-areas: "c1 c2"  "c3 c4" "c5 c6" "c7 c8"  "c9 c10"  "c11 c12";
   }
 }
 
@@ -453,7 +448,6 @@ body {
   }
 }
 
-/* ESTILOS  desktop */
 .acc_mainColumn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -663,7 +657,6 @@ body {
   margin-top: 30px;
 }
 
-/* ESTILOS  desktop */
 .containerService__banner {
   margin-left: auto;
   margin-right: auto;
@@ -768,7 +761,6 @@ body {
   }
 }
 
-/* ESTILOS  desktop */
 .btn, .btn--colorDistinto {
   border: 1px solid black;
   border-radius: 4%;
@@ -818,7 +810,6 @@ body {
           box-shadow: black;
 }
 
-/* ESTILOS  desktop */
 .fotos__contenedor, .fotos_ind {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -845,7 +836,6 @@ body {
   width: auto;
 }
 
-/* ESTILOS  desktop */
 .vid_container {
   background-color: #ffb700;
   width: 100%;
@@ -963,6 +953,4 @@ body {
   -ms-user-select: none;
       user-select: none;
 }
-
-/* ESTILOS  desktop */
 /*# sourceMappingURL=main.css.map */
