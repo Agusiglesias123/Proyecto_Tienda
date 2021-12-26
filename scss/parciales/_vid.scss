@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import"./responsive";
 .vid_container{
     background-color: $color-naranja;
@@ -70,4 +71,74 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
+=======
+.vid_container{
+    background-color: $color-naranja;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .video{
+    width: 35%;
+    height: 35%;
+  }
+  
+  .title_vid{
+    font-size: 20px;
+    color: $color-blanco;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    line-height: 40px;
+  }
+  .vid-container{
+    background-color: $color-blanco;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  .video{
+    width: 35%;
+    height: 35%;
+  }
+  
+  .title-vid{
+    font-size: 20px;
+    color: $color-negro;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 40px;
+  }
+  
+  .vid_contact{
+    display: flex;
+  }
+  
+  .video1{
+    width: 500px;
+    height: 100%;
+  
+  }
+  .title_contact_vid{
+    font-size: 2.2rem;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+>>>>>>> 828bd5e02c539d6951722954312c02d79033d1cc
   }

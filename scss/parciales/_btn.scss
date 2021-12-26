@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import"./responsive";
 .btn{
     border: 1px solid $color-negro;
@@ -43,4 +44,42 @@
     background-color: $color-principal;
     color: $color-blanco;
     box-shadow: $color-negro;
+=======
+.btn{
+    border: 1px solid $color-blanco;
+    border-radius: 4%;
+    padding: 7px;
+    background-color: $color-principal;
+    color: $color-blanco;
+  }
+  
+  .out{
+    background-color: $color-rojo;
+    color: $color-blanco;
+    opacity: 90%;
+  }
+  
+  .btn:hover{
+    background-color: $color-naranja;
+    color: $color-negro;
+  }
+  .btn_vid{
+    padding: 9px;
+    background-color:$color-principal;
+    color: $color-blanco;
+    border-radius: 6px;
+    border: 3px outset $color-gris;
+    cursor: pointer;
+    transition: all 1s;
+    margin: 15px;
+  }
+  .btn_vid:hover{
+    color: $color-negro;
+    background-color: $color-naranja;
+  }
+  .page-link{
+    background-color: $color-principal;
+    color: $color-blanco;
+    box-shadow: $color-negro;
+>>>>>>> 828bd5e02c539d6951722954312c02d79033d1cc
   }
