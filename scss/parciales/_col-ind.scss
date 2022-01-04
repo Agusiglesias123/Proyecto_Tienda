@@ -78,9 +78,9 @@
   .acc_columnphototwo{
     display: flex;
     margin-bottom:20px;
-    margin-left: 1px;
+    margin-left: 10px;
     margin-top: 20px;
-    padding: 10px;
+    padding:9px;
     flex-direction: column;
     align-items: center;
     @include desktop2{
@@ -99,6 +99,8 @@
   
   .acc-img{
     width: 500px;
+    box-shadow: 0 8px 36px 0 rgba(0, 0, 0, 0.411);    backdrop-filter: blur(1px);
+    border-radius: 7px;
     @include desktop2{
       width: 100%;
     }
@@ -108,8 +110,10 @@
     @include tablet{
       flex-wrap: wrap;
       width: 100%;
-      margin: 0%;
-      padding: 3%;
+      margin: 3%;
+      box-shadow: 0 8px 36px 0 rgba(0, 0, 0, 0.671);
+      backdrop-filter: blur(1px);
+      
     }
   }
   .acc-mod{

@@ -9,6 +9,7 @@
 
   .btn--colorDistinto{
     @extend .btn;
+    padding: 0.25rem;
     background-color: black;
     color: white;
     border: 3px solid $color-negro;
@@ -43,4 +44,19 @@
     background-color: $color-principal;
     color: $color-blanco;
     box-shadow: $color-negro;
+  }
+
+  .navbar-toggler{
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    color: rgb(17, 17, 17) !important;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+  }
+
+  .se-vid{
+    padding: 10px;
   }

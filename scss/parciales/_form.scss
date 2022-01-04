@@ -12,16 +12,19 @@
 }
   
   .title_form {
-    text-align: start;
-    font-size: 1.4rem;
-    margin-bottom: 3rem;
-    border: 5px solid $color-principal;
     background-color: $color-principal;
-    color: $color-gris; }
+    color: $color-blanco;
+    @include tablet{
+      margin: 10px;
+      padding: 5px;
+    }
+  }
   
   .form_titulo {
     border: 1px solid $color-gris;
     padding: 20px 25px; 
+    box-shadow: 0 8px 36px 0 rgba(0, 0, 0, 0.87);
+    backdrop-filter: blur(1px);
     @include tablet{
       padding: 0px 25px;
       border: none;

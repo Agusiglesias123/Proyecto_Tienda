@@ -15,7 +15,7 @@
     flex-direction: column;
     line-height: 40px;
     @include tablet{
-      font-size: 13px;
+      font-size: 1.6rem;
     } 
   }
   .vid-container{
@@ -29,6 +29,9 @@
   .video{
     width: 35%;
     height: 35%;
+    margin: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.993);
+    backdrop-filter: blur(1px);
     @include tablet{
       width: 100%;
     }
@@ -43,7 +46,7 @@
     flex-direction: column;
     line-height: 40px;
     @include tablet{
-      font-size: 13px;
+      font-size: 1.6rem;
     }
   }
   

@@ -20,14 +20,14 @@
                          "c9 c10 c11 c12";
     justify-content: center;
     @include tablet{
-      grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr ;
-      grid-template-areas: "c1 c2" 
-                          "c3 c4"
-                          "c5 c6"
-                           "c7 c8" 
-                           "c9 c10" 
-                          "c11 c12";
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "c1" "c2" 
+                          "c3" "c4"
+                          "c5" "c6"
+                           "c7" "c8" 
+                           "c9" "c10" 
+                          "c11" "c12";
     }
   
   }
@@ -73,9 +73,15 @@
     margin: 0 auto;
     flex-direction: column;
     border: 1px solid $color-ropa;
-    margin: 2px;
+    margin: 5px;
     padding: 15px;
+    border-radius: 5px;
     background-color: $color-ropa;
+    @include tablet{
+      margin: 10px;
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.993);
+      backdrop-filter: blur(1px);
+    }
   }
   .img-art{
     @extend %display-align;
@@ -88,7 +94,7 @@
     font-family: 'Bebas Neue', cursive;
     margin-top: 30px;
     @include tablet{
-      font-size: medium;
+      font-size: 30px;
       font-family: 'Bebas Neue';
     }
   }
