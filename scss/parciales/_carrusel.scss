@@ -18,3 +18,69 @@
   .carousel{
     width: auto;
   }
+
+  .caja{
+    max-width: 800px; 
+    margin: auto; 
+   border: white solid 5px; 
+    background-color: white; 
+  }
+  
+  .panel-principal img, .minis img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .minis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  
+.Main_container{
+  display: flex;
+  @include tablet{
+    flex-wrap: wrap;
+  }
+  @include laptop{
+    display: flex;
+  }
+}
+
+.menu_des{
+  background: #ffb700bd;
+  color: rgba(0, 0, 0, 0.877);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 140px;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  width: 70% !important;
+  @include tablet{
+    width: 100% !important;
+  }
+  @include tablet2{
+    width: 70% !important;
+  }
+  @include desktop2{
+    width: 100% !important;
+  }
+}
+.txt-price{
+  font-size: 23px;
+}
+.title-txt{
+  font-size: 40px;
+}
+.panel-principal{
+  background: #ffb700;
+  color: white;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.548);
+}
+
+.accordion-flush .accordion-item .accordion-button{
+  background-color: rgba(0, 0, 0, 0.815);
+  color: rgba(211, 211, 211, 0.959);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.521);
+}
+
